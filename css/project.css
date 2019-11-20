@@ -1,0 +1,147 @@
+/* div {
+    border: red solid 1px !important;
+} */
+
+body {
+    opacity: 1;
+    transition: 1.2s opacity;
+    font-family: 'Nunito', sans-serif !important;
+  }
+
+.content-container {
+    width: 100%;
+}
+
+.team-column {
+padding-left:50px;
+margin-top: 15px;
+}
+
+.header-emoji {
+ margin-bottom: 5px;
+}
+
+.emoji-container {
+    display: inline;
+}
+
+
+body.fade {
+      opacity: 0;
+      transition: none;
+  }
+
+  h2 {
+      font-size: 20pt;
+  }
+
+h6 {
+    font-weight: 600;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background: #f8f9fa;
+}
+
+.header-description {
+    font-size: 13pt;
+}
+
+.header-btn {
+    background: none;
+    border: solid black 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+.header-btn-secondary {
+    background: #fccc32;
+    border-color: #fccc32;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 15px 5px 15px;
+}
+
+.header-btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.display-4 {
+    font-size: 23pt;
+}
+
+.img-fluid {
+    padding-bottom: 10px;
+}
+
+.login-gif {
+    border: solid 1px lightgray;
+}
+
+.icon-img {
+    padding-bottom: 15px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.toolkit-section {
+    padding: 35px 0px 35px 0px;
+    /* border: solid red 1px; */
+}
+
+.toolkit-item {
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+.about-section {
+    padding: 20px 0px 20px 0px;
+}
+
+.technical-section {
+    padding: 20px 0px 20px 0px;
+}
+
+.features-section {
+    padding: 20px 0px 20px 0px;
+}
+
+
+.row {
+    padding-top: 8px;
+}
+
+.contact-icon-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.footer-emoji {
+    margin-top: -2px;
+    padding-left: 3px;
+    /* border: solid red 1px; */
+}

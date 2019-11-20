@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/project.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sue Park</title>
+  </head>
+  <body>
+        <script>
+            document.body.className = 'fade';
+        </script>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="../index.html"> <   Back</a>
+                
+              </nav>
+<!-- ============== END OF NAV ================-->
+<div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h1 class="display-4">Tumblr Clone</h1>
+              <p class="header-description">Tumblr Clone is a simplified replica of the popular blogging platform, Tumblr.</p>
+              <div class="header-btn-container">
+                  <a href="https://digitalcrafts-tumblr-clone.herokuapp.com" target="_blank"><button class="header-btn">View Site</button></a>
+                  <a href="https://github.com/tjeve/phase-2-project-tumblr-clone" target="_blank"><button class="header-btn-secondary">View GitHub</button></a>
+              </div>
+            
+            </div>
+            <div class="col-sm">
+                <img src="img/tumblr.png" class="img-fluid" />
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+<div class="content-container container">
+    <section class="about-section">
+            <h2>About This Project And My Role</h2>
+            <div class="row">
+              <div class="col-sm">
+                  <p>The goal of this project was to recreate the backend for an existing web application using backend technologies
+                    such as Express, PostgreSQL, knex.js etc. Although some HTML and CSS were used to make the app function, we tried keeping it simple for this project in order to focus more on the 
+                    backend technologies. <br><br>
+                    My role was to create different post requests so that the user can post content onto the site. Tumblr has several
+                    different ways to post content using different mediums such as images, video, audio etc. However, for the purpose of this project I decided to recreate 
+                    just the text post functionality- for both the regular text and quote post options. I also created a delete request 
+                    so that you're able to delete posts as well. My other tasks included aiding in setting up our
+                    database by creating the migration files (schema changes) and seeds (test data) for the users, as well as rendering the list of "recommended" users
+                    on the right side of the page.
+                  </p>
+              </div>
+              <div class="team-column col-sm">
+                <h6>Collaborators:</h6>
+                  <p>Terrence Eveline
+                    <br>Kazue Sasatani
+                    <br>Sue Park
+                  </p>
+              </div>
+            </div>
+    </section>
+    <section class="technical-section">
+            <h2>Technical Sheet</h2>
+            <div class="row">
+                <div class="col-sm">
+                    <ul>
+                      <li>Knex.js</li>
+                      <li>Node.js</li>
+                      <li>Express</li>
+                      <li>Passport.js</li>
+                      <li>PostgreSQL</li>
+                      <li>Postico</li>
+                      <li>Faker.js</li>
+                    </ul>
+                </div>
+            </div>    
+    </section>
+
+    <section class="features-section">
+            <h2>Project Features</h2>
+            <div class="row">
+                <div class="col-sm">
+                  <p>1. Create an account or log in using your credentials when you first land on the site.</p>
+                </div>
+                <div class="col-sm">
+                    <img src="img/log-in.gif" class="img-fluid login-gif">
+                </div>
+           </div>
+
+           <div class="row">
+              <div class="col-sm">
+                <p>2. Click on trash icon to delete posts.</p>
+              </div>
+              <div class="col-sm">
+                  <img src="img/delete-posts.gif" class="img-fluid">
+              </div>
+           </div>
+
+           <div class="row">
+              <div class="col-sm">
+                <p>3. Use search bar to search through posts.</p>
+              </div>
+              <div class="col-sm">
+                  <img src="img/search-posts.gif" class="img-fluid">
+              </div>
+           </div>
+
+    </section>
+     <!-- ================= END OF ABOUT SECTION ==============-->
+    
+</div>
+
+
+<div class="footer-container">
+    <hr>
+   <div class="footer"><h6>Wanna talk? Feel free to reach out!</h6> <div class="footer-emoji"><img class="header-emoji" src="../img/peace.png" height="20px" /><br></div></div> 
+   <div class="contact-icon-container">
+      <div class="contact-icon"><a href="https://github.com/suepark09" target="_blank"></a><img src="../img/github.svg" height="28px" /></a></div> 
+      <div class="contact-icon"><a href="https://www.linkedin.com/in/suejeanpark/" target="_blank"></a><img src="../img/linkedin.png" height="30px" /></a></div> 
+      <div class="contact-icon"><a href="https://codepen.io/sue-park" target="_blank"></a><img src="../img/codepen.png" height="30px" /></a></div> 
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(e) {
+              document.body.className = '';
+            });
+          </script>
+    <script src="main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
